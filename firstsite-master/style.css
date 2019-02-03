@@ -1,0 +1,697 @@
+/*--------------------reset----------------*/
+@charset "UTF-8";
+body, div, dl, dt, dd, p, ul, ol, li, form, textarea, input, table, th, tr, td, h1, h2, h3, h4, h5, blockquote, figure {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body {
+  width: 100%;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: 100%;
+  line-height: 1.6;
+  font-family: Arial, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, sans-serif;
+  font-size: 16px;
+  position: relative;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, th {
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.menu li a {
+  display: block;
+  text-decoration: none;
+  color:rgb(62, 62, 62);
+  transition: all 300ms ease;
+
+}
+.menu li:hover a{
+  color:red;
+  transform: rotate(360deg);
+}
+
+img {
+  border: 0;
+  vertical-align: bottom;
+}
+
+
+input, select {
+  vertical-align: middle;
+}
+
+
+/* clearfix */
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*--------------------home----------------*/
+.menu{
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+  height:auto;
+  top: 0;
+}
+.menu ol{
+  margin:0;
+}
+.titlehome h1{
+    text-align:center;
+    font-size:20vw;
+    background-repeat: no-repeat;
+    background-size:120% 120%;
+    margin-top: 5vw;
+    color: #301;
+    width: auto;
+    height: 400px;
+}
+.titlehome{
+
+}
+.saito h2{
+  color:#000000;
+}
+.saito ol{
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
+  grid-gap: 20px;
+  height: auto;
+  width: auto;
+  padding: 0px 20px;
+}
+.saito li{
+    width: auto;
+    list-style: none;
+    float: left;
+    padding:0px 0% 0px 20%;
+    /* background-color: #000000; */
+    margin: 0;
+    height:auto;
+}
+.saito li:hover{
+  opacity:0.8;
+
+}
+.saito a{
+  height: auto;
+  width: 200px;
+}
+.saito a href="https://template-party.com/"{
+  height: auto;
+  width: 250px;
+}
+.balloon-top{
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
+  grid-gap: 20px
+}
+.balloon-top p{
+  width: auto;
+  height: auto;
+}
+.saito{
+  height:auto;
+  width: auto;
+}
+/*.main{
+}*/
+
+/*
+
+*/
+/* .main{
+    background-image: url(tp_beginner5_blue01/images/yuugatanoki.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.titlehome h1{
+    text-align:center;
+    font-size:250px;
+    background-image: url(tp_beginner5_blue01/images/asayake.png);
+    background-repeat: no-repeat;
+    background-size:1500px 500px;
+
+} */
+
+.balloon-top1 {
+ 	position: relative;
+	display: inline-block;
+ 	margin: 1.5em 0;
+	padding: 7px 10px;
+	min-width: 120px;
+ 	max-width: 100%;
+ 	color: #555;
+	font-size: 16px;
+	background: #FFF;
+ 	border: solid 3px #555;
+ 	box-sizing: border-box;
+  height:auto;
+  width: auto;
+}
+
+.balloon-top2 {
+ 	position: relative;
+	display: inline-block;
+ 	margin: 1.5em 0;
+	padding: 7px 10px;
+	min-width: 120px;
+ 	max-width: 100%;
+ 	color: #555;
+	font-size: 16px;
+	background: #FFF;
+ 	border: solid 3px #555;
+ 	box-sizing: border-box;
+  height:auto;
+  width: auto;
+}
+
+.balloon-top3 {
+ 	position: relative;
+	display: inline-block;
+ 	margin: 1.5em 0;
+	padding: 7px 10px;
+	min-width: 120px;
+ 	max-width: 100%;
+ 	color: #555;
+	font-size: 16px;
+	background: #FFF;
+ 	border: solid 3px #555;
+ 	box-sizing: border-box;
+  height:auto;
+  width: auto;
+}
+
+.balloon-top1:before{
+	content: "";
+	position: absolute;
+	top: -24px;
+	left: 50%;
+ 	margin-left: -15px;
+	border: 12px solid transparent;
+	border-bottom: 12px solid #FFF;
+ 	z-index: 2;
+
+  width: auto;
+  height: auto;
+}
+
+.balloon-top2:before{
+	content: "";
+	position: absolute;
+	top: -24px;
+	left: 50%;
+ 	margin-left: -15px;
+	border: 12px solid transparent;
+	border-bottom: 12px solid #FFF;
+ 	z-index: 2;
+
+  width: auto;
+  height: auto;
+}
+
+.balloon-top3:before{
+	content: "";
+	position: absolute;
+	top: -24px;
+	left: 50%;
+ 	margin-left: -15px;
+	border: 12px solid transparent;
+	border-bottom: 12px solid #FFF;
+ 	z-index: 2;
+
+  width: auto;
+  height: auto;
+}
+.balloon-top1:after{
+	content: "";
+	position: absolute;
+	top: -30px;
+	left: 50%;
+ 	margin-left: -17px;
+	border: 14px solid transparent;
+	border-bottom: 14px solid #555;
+ 	z-index: 1;
+
+  width: auto;
+  height: auto;
+}
+
+.balloon-top2:after{
+	content: "";
+	position: absolute;
+	top: -30px;
+	left: 50%;
+ 	margin-left: -17px;
+	border: 14px solid transparent;
+	border-bottom: 14px solid #555;
+ 	z-index: 1;
+
+  width: auto;
+  height: auto;
+}
+
+.balloon-top3:after{
+	content: "";
+	position: absolute;
+	top: -30px;
+	left: 50%;
+ 	margin-left: -17px;
+	border: 14px solid transparent;
+	border-bottom: 14px solid #555;
+ 	z-index: 1;
+
+  width: auto;
+  height: auto;
+}
+
+.balloon-top1 p {
+	margin: 0;
+	padding: 0;
+}
+
+.balloon-top2 p {
+	margin: 0;
+	padding: 0;
+}
+.balloon-top3 p {
+	margin: 0;
+	padding: 0;
+}
+
+/*--------------------mypage----------------*/
+#wholl{
+position:relative;
+text-align:left;
+}
+
+.me{
+width:960px;
+width:100%;
+/*background:linear-gradient(#ff9900,#ffffff);*/
+/*position:relative;*/
+text-align:center;
+margin:0;
+background:linear-gradient(#ffffff,#c8c8ff);
+}
+.mepoint{
+width:960px;
+width:100%;
+/*background-color:#90ff00;*/
+position:relative;
+text-align:center;
+margin:0;
+background:linear-gradient(#c8c8ff,#0000ff);
+}
+.dreemfood{
+width:960px;
+width:100%;
+/*background:linear-gradient(#9fffff,#ff99ff);*/
+position:relative;
+text-align:center;
+margin:0;
+}
+.animal{
+width:960px;
+width:100%;
+/*background-color:#ffff99;*/
+position:relative;
+text-align:center;
+margin:0;
+display:inline-block
+}
+
+.animals{
+  margin:0;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 500px;
+  /* grid-gap: 20px ; */
+  text-align: center;
+  background:linear-gradient(#0000ff,#ff00ff);
+}
+.cat{
+/*background:linear-gradient(#ffff99,#ff9900);*/
+text-align:center;
+margin:0 auto　;
+
+}
+.cat:hover{
+ background: radial-gradient(#c8c8ff, #EA6264);}
+.dog{
+/* background:linear-gradient(#ffff99,#ff9900); */
+text-align:center;
+margin:0 ;
+}
+.dog:hover{
+  background: radial-gradient(#c8c8ff, #EA6264);
+}
+.hamu{
+/* background:linear-gradient(#ffff99,#ff9900); */
+text-align:center;
+margin:0 ;
+}
+.hamu:hover{
+  background: radial-gradient(#c8c8ff, #EA6264);
+}
+/* .menu li a{
+    padding: 10px;
+} */
+
+/*--------------------geme----------------*/
+#gameframe{
+  width:500px;
+  height:500px;
+}
+.kaisetu{
+    list-style: none;
+    background-color:white;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.kaisetu p{
+  /* width:calc(1100px - 600px); */
+  word-wrap: break-word;
+  text-align: justify;
+  color:#666666;
+}
+.center{
+  margin:170px auto;
+  width:1100px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  /* grid-template-rows: 400px; */
+  grid-gap: 20px ;
+}
+.fuyu-tree img{
+  height:200px;
+  width: auto;
+  position:absolute;
+  left:1000px;
+  top: -130px;
+}
+.yuki img{
+  height:300px;
+  width: auto;
+  position:absolute;
+  left:0px;
+  top:450px;
+}
+/*--------------------images----------------*/
+.item{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  /* grid-template-rows: 0vw 0vw; */
+  grid-gap: 10vw ;
+  /* background-color: black; */
+}
+.item img{
+  margin: auto;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.9);
+  border-radius: 10px;
+  display: inline-block;
+}
+.img1:hover{
+  transform: rotate(5deg);
+  opacity:1;
+}
+.img2:hover{
+  transform: rotate(-5deg);
+  opacity:1;
+}
+#container{
+  /* display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 8vw ; */
+  padding: 0.5em 1em;
+  margin: 5em 0;
+  background: #ffd77a;
+  border-top: solid 10px #a37637;
+  border-left: solid 10px #a37637;
+  border-right: solid 10px #a37637;
+  border-bottom: solid 10px #a37637;
+  /* grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); */
+}
+
+#container::before,
+#container::after {
+ margin: 0;
+ position: absolute;
+ content: '';
+ top: 0px;
+ height: 0px;
+ width: 0px;
+ border: 15px solid #ff0000; /*ホチキス*/
+ border-radius: 20px;
+ box-shadow: 0 -1px 2px #555;
+}
+#container::before { left: 450px;}
+#container::after { right: 500px;}
+/*--------------------contact----------------*/
+form {
+    /* フォームをページの中央に置く */
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    position:absolute;
+    top: 20%;
+    left: 33%;
+    /* フォームの範囲がわかるようにする */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 400px; */
+    grid-gap: 30px ;
+
+  }
+  form div + div {
+    margin-top: 1em;
+  }
+  /* form input:checked{
+    box-shadow: 0 0 7px #3498db;
+    border: 1px solid #3498db;
+  }
+  form textarea:checked{
+    box-shadow: 0 0 7px #3498db;
+    border: 1px solid #3498db;
+  } */
+
+  label {
+    /* すべてのラベルを同じサイズにして、きちんと揃える */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    margin: 0;
+  }
+
+  input, textarea {
+    /* すべてのテキストフィールドのフォント設定を一致させる
+       デフォルトで、textarea は等幅フォントが設定されている */
+    font: 1em sans-serif;
+
+    /* すべてのテキストフィールドを同じサイズにする */
+    width: 300px;
+    box-sizing: border-box;
+
+    /* テキストフィールドのボーダーの外見を同一にする */
+    border: 1px solid #999;
+  }
+
+  input:focus, textarea:focus {
+    /* アクティブな要素を少し強調する */
+    border-color: #000;
+  }
+
+  textarea {
+    /* 複数行のテキストフィールドをラベルにきちんと揃える */
+    vertical-align: top;
+
+    /* テキスト入力に十分な領域を与える */
+    height: 5em;
+  }
+
+  .button {
+    /* ボタンを他のテキストフィールドと同じ場所に置く */
+    padding-left: 90px; /* label 要素と同じサイズ */
+  }
+
+  button {
+    /* このマージンは、ラベルとテキストフィールドの間のスペースと
+       おおよそ同じスペースを表す */
+    margin-left: .5em;
+  }
+
+/* cssで作る場合 */
+/* input[type="text"],
+textarea {
+    padding: 0.8em;
+    outline: none;
+    border: 1px solid #DDD;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+textarea {
+    width: 300px;
+}
+input[type="text"]:focus,
+texture:focus {
+    box-shadow: 0 0 7px #3498db;
+    border: 1px solid #3498db;
+}
+input[type="text"] {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    width: 200px;
+}
+input[type="text"]:focus {
+    width: 300px;
+}input.sysNextSubmit {
+    border-radius: 0;
+    background: -moz-linear-gradient(top, #FFF 0%, #EEE);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#EEE));
+    border: 1px solid #DDD;
+    color: #111;
+    padding: 10px 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+input.sysNextSubmit:hover {
+    background: -moz-linear-gradient(top, #EFEFEF 0%, #EEE);
+    background: -webkit-gradient(linear, left top, left bottom, from(#EFEFEF), to(#EEE));
+} */
+/* .contactimages{
+  position:absolute;
+} */
+.akinohappa{
+  position:absolute;
+  height: auto;
+  width: 300px;
+}
+.akinohappa img{
+  width: auto;
+  height: 300px;
+}
+.tonbo{
+  position:absolute;
+  left: 81%;
+  top: 50%;
+}
+.tonbo img{
+  width: auto;
+  height: 350px;
+}
+/*---------------------*/
+body{
+  overflow-x: hidden;
+  width:100vw;
+  font-family: "shirokuma Font";
+  margin: 0;
+  background-color:#c8c8ff;
+  min-height: 100%;
+
+ /* フッタの高さと等しいネガティブマージン */
+ /* また最後の子要素の潜在的なマージンとしても機能 */
+ margin-bottom: -50px;
+}
+
+@font-face {
+  font-family: 'shirokuma Font';
+  src: url(material/001Shirokuma-Regular.otf);
+}
+
+.menu li{
+    list-style: none;
+    float: left;
+    padding:2px 7% 2px 7%;
+    font-size:100%;
+    background-color: #e6e6ff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0);
+}
+.menu ol{
+  margin:0;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px;
+  /* grid-gap: 20px ; */
+}
+.main{
+    background-image: url(material/huyu.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.menu li a{
+    padding: 10px;
+    text-align: center;
+}
+.images{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+
+}
+.images img{
+  width: auto;
+  height: 300px;
+  position: relative;
+}
+.images img ::before{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: #000;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+.a{
+  color: black;
+}
+.floot{
+  clear: both;
+	background: rgba(0,0,0,0.0);
+	width: 460px;
+	height: 95vh;
+	padding: 10px;
+}
+.push{
+  height: 30px;
+}
+.footer{
+  background-color:#707070;
+  text-align: center;
+}

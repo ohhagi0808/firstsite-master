@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>お問い合わせ</title>
+　　<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+　　<script type="text/javascript" src="./snowfall.jquery.js"></script>
+    <link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+    <link rel="stylesheet" href="game_contact.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="res.css">
+    <link rel="stylesheet" href="les.css">
+    <link rel="stylesheet" href="mail.php">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="menu">
+        <ol>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="myself.html">自己紹介</a></li>
+          <li><a href="game.html">ゲーム</a></li>
+          <li><a href="image.html">お気に入りの画像</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ol>
+        </div><!---menu-->
+        <form action="mail.php" method="post">
+      <div>
+        <label for="name">お名前</label>
+        <input type="text" id="name" name="user_name">
+      </div>
+      <div>
+        <label for="mail">Eメール</label>
+        <input type="email" id="mail" name="user_mail">
+      </div>
+      <div>
+        <label for="msg">メッセージ</label>
+        <textarea id="msg" name="user_message"></textarea>
+        <div class="button">
+          <button type="submit">確認して送信</button>
+        </div>
+      </div>
+    </form>
+    <!-- <div class="contactimages"> -->
+      <div class="akinohappa">
+        <img src="material/kessyou.png" alt="雪の結晶">
+      </div>
+      <div class="tonbo">
+        <img src="material/yukidaruma.png" alt="雪だるま">
+      </div>
+      <!-- </div> -->
+      <div class="floot">
+
+      </div>
+      <div class="push"></div>
+      <footer class=footer>
+        Copyright © ○○○○ All Rights Reserved.
+      </footer>
+      <script type="text/javascript">
+      $(function() {
+      $(document).snowfall({
+      });
+      });
+      </script>
+  </body>
+</html>

@@ -1,0 +1,245 @@
+   @media screen and (min-width:320px) and (max-width:420px) {
+    img {
+      border: 0;
+      vertical-align: bottom;
+      width: 50vh;
+    }
+    .menu{
+      position: fixed;
+      z-index: 100;
+      width: 100vw;
+      height:auto;
+      top: 0;
+    }
+    .titlehome h1{
+        text-align:center;
+        font-size:25vw;
+        background-repeat: no-repeat;
+        background-size:120% 120%;
+        margin-top: 5vw;
+        color: #301;
+        width: auto;
+        height: 235px;
+    }
+    .titlehome{
+
+    }
+    .saito h2{
+      color:#000000;
+    }
+    .saito ol{
+      display: grid;
+      grid-template-columns: 1.5fr 1.5fr 1.5fr;
+      grid-gap: 20px;
+      height: auto;
+      width: auto;
+      padding: 0px 20px;
+    }
+    .saito li{
+        width: auto;
+        list-style: none;
+        float: left;
+        padding:0px 0% 0px 0%;
+        /* background-color: #000000; */
+        margin: 0;
+        height:auto;
+    }
+    .saito li:hover{
+      opacity:0.8;
+
+    }
+    .saito a{
+      height: auto;
+      width: 200px;
+    }
+    .saito a href="https://template-party.com/"{
+      height: auto;
+      width: 250px;
+    }
+    .balloon-top{
+      display: grid;
+      grid-template-columns: 1.5fr 1.5fr 1.5fr;
+      grid-gap: 20px
+    }
+    .balloon-top p{
+      width: auto;
+      height: auto;
+    }
+    .saito{
+      height:auto;
+      width: auto;
+    }
+    .menu li{
+        list-style: none;
+        float: left;
+        padding:2px 7% 2px 7%;
+        font-size:80%;
+    }
+    .balloon-top1 {
+     	position: relative;
+    	display: inline-block;
+     	margin: 1.5em 0;
+    	padding: 7px 10px;
+    	min-width: 120px;
+     	max-width: 100%;
+     	color: #555;
+    	font-size: 16px;
+    	background: #FFF;
+     	border: solid 3px #555;
+     	box-sizing: border-box;
+      height:auto;
+      width: auto;
+    }
+
+    .balloon-top2 {
+     	position: relative;
+    	display: inline-block;
+     	margin: 1.5em 0;
+    	padding: 7px 10px;
+    	min-width: 120px;
+     	max-width: 100%;
+     	color: #555;
+    	font-size: 16px;
+    	background: #FFF;
+     	border: solid 3px #555;
+     	box-sizing: border-box;
+      height:auto;
+      width: auto;
+    }
+
+    .balloon-top3 {
+     	position: relative;
+    	display: inline-block;
+     	margin: 1.5em 0;
+    	padding: 7px 10px;
+    	min-width: 120px;
+     	max-width: 100%;
+     	color: #555;
+    	font-size: 16px;
+    	background: #FFF;
+     	border: solid 3px #555;
+     	box-sizing: border-box;
+      height:auto;
+      width: auto;
+    }
+
+    .balloon-top1:before{
+    	content: "";
+    	position: absolute;
+    	top: -24px;
+    	left: 50%;
+     	margin-left: -15px;
+    	border: 12px solid transparent;
+    	border-bottom: 12px solid #FFF;
+     	z-index: 2;
+
+      width: auto;
+      height: auto;
+    }
+
+    .balloon-top2:before{
+    	content: "";
+    	position: absolute;
+    	top: -24px;
+    	left: 50%;
+     	margin-left: -15px;
+    	border: 12px solid transparent;
+    	border-bottom: 12px solid #FFF;
+     	z-index: 2;
+
+      width: auto;
+      height: auto;
+    }
+
+    .balloon-top3:before{
+    	content: "";
+    	position: absolute;
+    	top: -24px;
+    	left: 50%;
+     	margin-left: -15px;
+    	border: 12px solid transparent;
+    	border-bottom: 12px solid #FFF;
+     	z-index: 2;
+
+      width: auto;
+      height: auto;
+    }
+    .balloon-top1:after{
+    	content: "";
+    	position: absolute;
+    	top: -30px;
+    	left: 50%;
+     	margin-left: -17px;
+    	border: 14px solid transparent;
+    	border-bottom: 14px solid #555;
+     	z-index: 1;
+
+      width: auto;
+      height: auto;
+    }
+
+    .balloon-top2:after{
+    	content: "";
+    	position: absolute;
+    	top: -30px;
+    	left: 50%;
+     	margin-left: -17px;
+    	border: 14px solid transparent;
+    	border-bottom: 14px solid #555;
+     	z-index: 1;
+
+      width: auto;
+      height: auto;
+    }
+
+    .balloon-top3:after{
+    	content: "";
+    	position: absolute;
+    	top: -30px;
+    	left: 50%;
+     	margin-left: -17px;
+    	border: 14px solid transparent;
+    	border-bottom: 14px solid #555;
+     	z-index: 1;
+
+      width: auto;
+      height: auto;
+    }
+
+    .balloon-top1 p {
+    	margin: 0;
+    	padding: 0;
+    }
+
+    .balloon-top2 p {
+    	margin: 0;
+    	padding: 0;
+    }
+    .balloon-top3 p {
+    	margin: 0;
+    	padding: 0;
+    }
+ }
+  @media screen and (min-width:421px) and (max-width:768px) {
+    img {
+      border: 0;
+      vertical-align: bottom;
+      width: 50vh;
+    }
+  }
+ @media screen and (min-width:1024px) and (max-width:1199px){
+   .emmet img {
+     border: 0;
+     vertical-align: bottom;
+     height: 3vh;
+     width: 50vh;
+   }
+ }
+ @media screen and (min-width:1200px){
+   .emmet img {
+     border: 0;
+     vertical-align: bottom;
+     height: 5vh;
+     width: 50vh;
+   }
+ }

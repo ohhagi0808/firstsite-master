@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ゲーム</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./snowfall.jquery.js"></script>
+    <link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+    <link rel="stylesheet" href="game_contact.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="res.css">
+    <link rel="stylesheet" href="les.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://cdn.rawgit.com/uei/enchant.js-builds/master/build/enchant.js'></script>
+    <script src='https://cdn.rawgit.com/uei/enchant.js-builds/master/build/plugins/nineleap.enchant.js'></script>
+    <script src='https://cdn.rawgit.com/joelgwebber/bench2d/master/js/Box2dWeb-2.1a.3/Box2dWeb-2.1.a.3.js'></script>
+    <script src='https://cdn.rawgit.com/uei/enchant.js-builds/master/build/plugins/box2d.enchant.js'></script>
+    <script src='https://cdn.rawgit.com/uei/enchant.js-builds/master/build/plugins/ui.enchant.js'></script>
+    <script src='/code.9leap.js'></script>
+    <script src='main.js'></script>
+  </head>
+  <body>
+    <div class="menu">
+        <ol>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="myself.html">自己紹介</a></li>
+          <li><a href="game.html">ゲーム</a></li>
+          <li><a href="image.html">お気に入りの画像</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ol>
+        </div><!---menu-->
+        <div class="center">
+          <div id=enchant.js>
+              <iframe id="gameframe" src="https://ohhagi0808.github.io/firstsite/code9leap_firstsite/index.html" style="background-color:white; ">
+              </iframe>
+          </script>
+          </div><!--enchant.js-->
+
+          <div class=kaisetu>
+            <h2>ゲームの解説</h2>
+            <p>
+              このゲームは、ボールを飛ばして障害物を崩して遊びます。林檎一つ1ptなので、できるだけ崩しましょう。マウスポインターでボールをタッチして引っ張って話すと、引っ張った方向とは逆にボールが飛んで行きます。画面内に有る限り何度でも引っ張れます。
+            </p>
+            <a href="http://code.9leap.net/codes/show/134768">code9leapでプレイ</a>
+             <div class="images">
+               <img src="material/game_img01.png" alt="">
+               <img src="material/game_img02.png" alt="">
+             </div>
+          </div><!--kaisetu-->
+        </div><!---center--->
+        <div class="fuyu-tree"><img src="material/fuyu-tree.png"</div>
+        <div class="yuki"><img src="material/yuki.png"</div>
+        <div class="push"></div>
+        <footer class=footer>
+          Copyright © ○○○○ All Rights Reserved.
+        </footer>
+        <script type="text/javascript">
+        $(function() {
+        $(document).snowfall({
+        });
+        });
+        </script>
+    </body>
+  </html>
